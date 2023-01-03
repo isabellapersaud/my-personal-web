@@ -3,6 +3,7 @@ body{
     text-align: center;
     font-family: "Lucida Handwriting", "Brush Script M7", cursive; 
 }
+
 .pointer {
     cursor: pointer;
 }
@@ -85,8 +86,33 @@ h3 {
 }
 
 img { 
-    border-radius: 10px;
+    border-radius: 0px;
 }
 .pointer {
     cursor: pointer;
 }
+.hero {
+    width:50%;
+    height:50%;
+    display: flex;
+    align-items:center;
+}
+
+.button {
+    font-size: 15px;
+    padding: 25px, 70px;
+    background: rgb(174, 103, 206);
+    border-radius: 100px;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0 2px 25px rgb(154, 111, 118);
+    transition: box-shadow 0.25s;
+    align-items: center;
+}
+
+.button:active{
+    background: rgb(207, 84, 172);
+    box-shadow: 0 2px 25px rgb(154, 111, 118);
+}
+
+
