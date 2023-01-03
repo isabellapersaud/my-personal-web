@@ -3,6 +3,10 @@ body{
     text-align: center;
     font-family: "Lucida Handwriting", "Brush Script M7", cursive; 
 }
+.pointer {
+    cursor: pointer;
+}
+
 .element {
     font-size:70px; 
     position:absolute;
@@ -54,8 +58,8 @@ header {
 }
 
 .p {
-    font-size: medium;
-    text-align:right;
+    font-size: 75px;
+    text-align:left;
 }
 
 .column img{
@@ -78,4 +82,11 @@ header {
 h3 {
     text-align:center;
     font-size: 25px;
+}
+
+img { 
+    border-radius: 10px;
+}
+.pointer {
+    cursor: pointer;
 }
